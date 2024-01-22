@@ -3,7 +3,27 @@ entries:
   hadoop:
   - apiVersion: v1
     appVersion: 3.3.2
-    created: "2024-01-22T16:51:09.962811+08:00"
+    created: "2024-01-22T17:38:26.130975+08:00"
+    description: The Apache Hadoop software library is a framework that allows for
+      the distributed processing of large data sets across clusters of computers using
+      simple programming models.
+    digest: 1c196f67bccfb506e80ee8b1c9f440cd716d53762c072d3cbdfd47a541de8c98
+    home: https://hadoop.apache.org/
+    icon: http://hadoop.apache.org/images/hadoop-logo.jpg
+    maintainers:
+    - email: github@farberg.de
+      name: pfisterer
+      url: http://github.com/pfisterer
+    name: hadoop
+    sources:
+    - https://github.com/pfisterer/apache-hadoop-helm
+    - https://github.com/apache/hadoop
+    urls:
+    - https://katool.github.io/charts/hadoop-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v1
+    appVersion: 3.3.2
+    created: "2024-01-22T17:38:26.128666+08:00"
     description: The Apache Hadoop software library is a framework that allows for
       the distributed processing of large data sets across clusters of computers using
       simple programming models.
@@ -24,7 +44,7 @@ entries:
   hue:
   - apiVersion: v2
     appVersion: 4.10.0
-    created: "2024-01-22T16:51:09.967778+08:00"
+    created: "2024-01-22T17:38:26.135938+08:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -50,4 +70,4 @@ entries:
     urls:
     - https://katool.github.io/charts/hue-1.0.5.tgz
     version: 1.0.5
-generated: "2024-01-22T16:51:09.960667+08:00"
+generated: "2024-01-22T17:38:26.126835+08:00"
