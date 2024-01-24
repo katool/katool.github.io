@@ -3,11 +3,11 @@ entries:
   hadoop:
   - apiVersion: v2
     appVersion: 3.3.2
-    created: "2024-01-24T16:00:31.976398+08:00"
+    created: "2024-01-24T17:43:21.649388+08:00"
     description: The Apache Hadoop software library is a framework that allows for
       the distributed processing of large data sets across clusters of computers using
       simple programming models.
-    digest: 9cdf6ce17938f157ea061688a1a00b4e5af242cafc024eda87f4f73499fe3c92
+    digest: d9a273ad7aa2f7f7da7ff8076f5951c4be51368c3ef1ce7f273ad97f76394c53
     home: https://hadoop.apache.org/
     icon: http://hadoop.apache.org/images/hadoop-logo.jpg
     keywords:
@@ -20,12 +20,12 @@ entries:
     - https://github.com/pfisterer/apache-hadoop-helm
     - https://github.com/apache/hadoop
     urls:
-    - https://katool.github.io/charts/hadoop-1.0.22.tgz
-    version: 1.0.22
+    - https://katool.github.io/charts/hadoop-1.0.23.tgz
+    version: 1.0.23
   hue:
   - apiVersion: v2
     appVersion: 4.10.0
-    created: "2024-01-24T16:00:31.977072+08:00"
+    created: "2024-01-24T17:43:21.650444+08:00"
     description: Hue is an SQL Cloud Editor for Data Warehouses and Databases.
     digest: 35958680e6208cc691f98755e6fe772443e0e6125f13bcc9714fb83a77bb59f8
     home: http://gethue.com/
@@ -46,4 +46,4 @@ entries:
     urls:
     - https://katool.github.io/charts/hue-1.0.8.tgz
     version: 1.0.8
-generated: "2024-01-24T16:00:31.971433+08:00"
+generated: "2024-01-24T17:43:21.647955+08:00"
