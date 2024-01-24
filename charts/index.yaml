@@ -3,7 +3,7 @@ entries:
   hadoop:
   - apiVersion: v2
     appVersion: 3.3.2
-    created: "2024-01-24T15:51:02.601861+08:00"
+    created: "2024-01-24T16:00:31.976398+08:00"
     description: The Apache Hadoop software library is a framework that allows for
       the distributed processing of large data sets across clusters of computers using
       simple programming models.
@@ -25,9 +25,9 @@ entries:
   hue:
   - apiVersion: v2
     appVersion: 4.10.0
-    created: "2024-01-24T15:51:02.602824+08:00"
+    created: "2024-01-24T16:00:31.977072+08:00"
     description: Hue is an SQL Cloud Editor for Data Warehouses and Databases.
-    digest: 0ab4c3df6e22081f6a6e12eb5ed5f6efa35c286b0a8b8a7e25e59cedce7679a1
+    digest: 35958680e6208cc691f98755e6fe772443e0e6125f13bcc9714fb83a77bb59f8
     home: http://gethue.com/
     icon: https://raw.githubusercontent.com/cloudera/hue/master/docs/images/hue_logo.png
     keywords:
@@ -44,6 +44,6 @@ entries:
     - https://github.com/cloudera/hue
     - https://hub.docker.com/u/gethue
     urls:
-    - https://katool.github.io/charts/hue-1.0.7.tgz
-    version: 1.0.7
-generated: "2024-01-24T15:51:02.599652+08:00"
+    - https://katool.github.io/charts/hue-1.0.8.tgz
+    version: 1.0.8
+generated: "2024-01-24T16:00:31.971433+08:00"
